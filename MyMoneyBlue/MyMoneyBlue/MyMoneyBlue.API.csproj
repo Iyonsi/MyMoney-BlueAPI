@@ -22,8 +22,4 @@
     <ProjectReference Include="..\MyMoneyBlue.DataAccess\MyMoneyBlue.DataAccess.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
