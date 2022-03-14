@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -20,6 +22,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyMoneyBlue.DataAccess\MyMoneyBlue.DataAccess.csproj" />
+    <ProjectReference Include="..\MyMoneyBlue.Domain\MyMoneyBlue.Domain.csproj" />
+    <ProjectReference Include="..\MyMoneyBlue.Services\MyMoneyBlue.Services.csproj" />
   </ItemGroup>
 
 </Project>

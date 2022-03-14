@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoneyBlue.API", "MyMoneyBlue.API.csproj", "{EFE015AC-E2E3-4794-92BA-A0910BBAE0B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMoneyBlue.API", "MyMoneyBlue.API.csproj", "{EFE015AC-E2E3-4794-92BA-A0910BBAE0B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoneyBlue.Services", "..\MyMoneyBlue.Services\MyMoneyBlue.Services.csproj", "{9708906E-CDC7-42E1-902B-B8DAA09114BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMoneyBlue.Services", "..\MyMoneyBlue.Services\MyMoneyBlue.Services.csproj", "{9708906E-CDC7-42E1-902B-B8DAA09114BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoneyBlue.Domain", "..\MyMoneyBlue.Domain\MyMoneyBlue.Domain.csproj", "{EF3441D1-63AE-4035-B4C0-FC3A7068803B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMoneyBlue.Domain", "..\MyMoneyBlue.Domain\MyMoneyBlue.Domain.csproj", "{EF3441D1-63AE-4035-B4C0-FC3A7068803B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoneyBlue.DataAccess", "..\MyMoneyBlue.DataAccess\MyMoneyBlue.DataAccess.csproj", "{620F0241-F68C-4125-AB12-0CFC6C185617}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMoneyBlue.DataAccess", "..\MyMoneyBlue.DataAccess\MyMoneyBlue.DataAccess.csproj", "{620F0241-F68C-4125-AB12-0CFC6C185617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoneyBlue.Commons", "..\MyMoneyBlue.Commons\MyMoneyBlue.Commons.csproj", "{C86D212B-8128-4420-B089-FCF46C16FF05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{620F0241-F68C-4125-AB12-0CFC6C185617}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{620F0241-F68C-4125-AB12-0CFC6C185617}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{620F0241-F68C-4125-AB12-0CFC6C185617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86D212B-8128-4420-B089-FCF46C16FF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86D212B-8128-4420-B089-FCF46C16FF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86D212B-8128-4420-B089-FCF46C16FF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86D212B-8128-4420-B089-FCF46C16FF05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
